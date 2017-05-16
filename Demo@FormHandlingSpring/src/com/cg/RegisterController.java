@@ -75,6 +75,7 @@ public class RegisterController implements ApplicationContextAware{
         return "success";
     }
     
+    
     @ModelAttribute("userForm")
     UserDTO createUser(){
     	System.out.println("TRYING TO CREATE AN ENTRY FOR A USER");
