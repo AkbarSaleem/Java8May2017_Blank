@@ -23,6 +23,7 @@ public class MyController {
 		map.addAttribute("carList",cars);
 		System.out.println(cars);
 		return "carList";
+		
 	}
 	
 }
